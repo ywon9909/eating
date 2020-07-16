@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item1"
+        android:title="면/찌개/김밥">
+        <menu>
+            <item
+                android:title="야채김밥" />
+            <item
+                android:title="순두부 찌개" />
+            <item
+                android:title="치즈라면" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/item2"
+        android:title="덮밥류/비빔밥" >
+    <menu>
+        <item
+            android:title="제육덮밥" />
+        <item
+            android:title="육회비빔밥" />
+
+    </menu>
+    </item>
+
+    <item
+        android:id="@+id/item3"
+        android:title="볶음밥/오므라이스/돈가스" >
+    <menu>
+        <item
+            android:title="볶음밥" />
+        <item
+            android:title="오므라이스" />
+        <item
+            android:title="등심돈가스" />
+    </menu>
+    </item>
+</menu>
